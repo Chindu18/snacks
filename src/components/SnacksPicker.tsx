@@ -32,7 +32,7 @@ export default function SnacksPicker() {
   const [previewUrl, setPreviewUrl] = useState("");
   const [file, setFile] = useState<File | null>(null);
 
-  const API = "http://localhost:5000/api/snacks"; // ⚠️ Change if hosted
+  const API = "https://snacks-backend-dm28.onrender.com/api/snacks"; // ⚠️ Change if hosted
 
   // 🟢 Fetch from backend
   useEffect(() => {
